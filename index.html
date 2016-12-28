@@ -5,34 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML/CSS Project</title>
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-updated.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <style>
 		@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 	</style>
   </head>
   <article>
 	<div class="container">
+	<header>
   		<div class="row">
 	  		<div class="col-md-3">
 	  			<img class="img-responsive icon" src="images/images.png">
 	  		</div>
 	  		<div class="col-md-9">
-	  			<H1 class="text-right text-uppercase">Tori Funkhouser</H1>
-	  			<H2 class="text-right text-uppercase">Front-End Ninja in Training</H2>
+	  			<div id="center">
+		  			<H1 class="text-right text-uppercase center">Tori Funkhouser</H1>
+		  			<H2 class="text-right text-uppercase">Front-End Ninja (in Training!)</H2>
+	  			</div>
 	  		</div>
 	  	</div>
+	</header>
 		<div class="row">
 			<div class="col-md-12">
 	  			<hr class="bigHr">
 			</div>
 		</div>	
-
+	<section>
 		<div class="row">
 	  		<div class="col-md-12">
-	  			<img class="img-responsive cover_large" src="images/strawberry.jpg">
+	  			<picture class="img-responsive cover_large">
+					<source class="img-responsive cover_large" media="(min-width: 500px)" srcset="images/strawberry-large_large.jpg 1x,
+					images/strawberry.jpg 2x">
+					<!--Not sure I want to use the single strawberry image, but will keep it in here for later:
+					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_strawberry.jpg">
+					//-->	
+					<img class="img-responsive cover_large" src="images/strawberry.jpg" alt=“strawberries”>
+				</picture>
 			</div>
 		</div>
-
+	</section>
+	<section>
 		<div class="row">
 			<div class="col-md-12">
 			  	<H3>Featured Work</H3>
@@ -41,37 +53,40 @@
 		
 		<div class="row">
 	  		<div class="col-md-4">
-	  			<picture class="img-responsive cover_small">
-					<source media="(min-width: 500px)" srcset="images/watermelon_1x.jpeg 1x,
-					images/watermelon_2x.jpeg 2x">
+				<!--TO DO: change out fruit placeholder images for live images, once available.//-->	
+	  			<picture class="cover_small">
+				<!--Source large is smaller than original fruit source files. It will be used for 1x resolutions.//-->
+					<source media="(min-width: 500px)" srcset="images/watermellon-large_large.jpeg 1x,
+					images/watermellon.jpeg 2x">
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_watermelon.jpg">
 					<img src="images/watermellon.jpeg" alt=“watermelons”>
 				</picture>
 			  	<h4 class="text-center text-uppercase">Watermelons</h4>
-          		<p class="text-center">https://githup.com/udacity/watermelons</p>
+          		<p class="text-center">https://github.com/udacity/watermelons</p>
 
 	  		</div>
 	  		<div class="col-md-4">
-	  			<picture class="img-responsive cover_small">
-					<source media="(min-width: 500px)" srcset="images/lemons_1x.jpeg 1x,
-					images/lemons_2x.jpeg 2x">
+	  			<picture class="cover_small">
+					<source media="(min-width: 500px)" srcset="images/lemons-large_large.jpeg 1x,
+					images/lemons.jpeg 2x">
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_lemon.png">
 					<img src="images/lemons.jpeg" alt=“lemons”>
 				</picture>
 	  			<h4 class="text-center text-uppercase">Lemons</h4>
-          		<p class="text-center">https://githup.com/udacity/lemons</p>
+          		<p class="text-center">https://github.com/udacity/lemons</p>
 	  		</div>
 	  		<div class="col-md-4">
-	  			<picture class="img-responsive cover_small">
-					<source media="(min-width: 500px)" srcset="images/apples_1x.jpeg 1x,
-					images/apples_2x.jpeg 2x">
+	  			<picture class="cover_small">
+					<source media="(min-width: 500px)" srcset="images/apple-large_large.jpg 1x,
+					images/apples.jpeg 2x">
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_apple.jpeg">
-					<img src="images/apples.jpeg" alt=“apples”>
+					<img src="images/apples.jpg" alt=“apples”>
 				</picture>
 	  			<h4 class="text-center text-uppercase">Apples</h4>
-          		<p class="text-center">https://githup.com/udacity/apples</p>
+          		<p class="text-center">https://github.com/udacity/apples</p>
 	  		</div>
 		</div>
+	</section>
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
