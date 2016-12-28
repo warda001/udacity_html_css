@@ -10,7 +10,7 @@
 		@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 	</style>
   </head>
-  <body>
+  <article>
 	<div class="container">
   		<div class="row">
 	  		<div class="col-md-3">
@@ -41,20 +41,35 @@
 		
 		<div class="row">
 	  		<div class="col-md-4">
-			  	<img class="img-responsive cover_small" src="images/watermellon.jpeg">
+	  			<picture class="img-responsive cover_small">
+					<source media="(min-width: 500px)" srcset="images/watermelon_1x.jpeg 1x,
+					images/watermelon_2x.jpeg 2x">
+					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_watermelon.jpg">
+					<img src="images/watermellon.jpeg" alt=“watermelons”>
+				</picture>
 			  	<h4 class="text-center text-uppercase">Watermelons</h4>
-          		<p class="text-center">https://githup.com/udacity/lemons</p>
+          		<p class="text-center">https://githup.com/udacity/watermelons</p>
 
 	  		</div>
 	  		<div class="col-md-4">
-	  			<img class="img-responsive cover_small" src="images/lemons.jpeg">
+	  			<picture class="img-responsive cover_small">
+					<source media="(min-width: 500px)" srcset="images/lemons_1x.jpeg 1x,
+					images/lemons_2x.jpeg 2x">
+					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_lemon.png">
+					<img src="images/lemons.jpeg" alt=“lemons”>
+				</picture>
 	  			<h4 class="text-center text-uppercase">Lemons</h4>
-          		<p class="text-center">https://githup.com/udacity/chevron</p>
+          		<p class="text-center">https://githup.com/udacity/lemons</p>
 	  		</div>
 	  		<div class="col-md-4">
-	  			<img class="img-responsive cover_small" src="images/apple.jpg">
+	  			<picture class="img-responsive cover_small">
+					<source media="(min-width: 500px)" srcset="images/apples_1x.jpeg 1x,
+					images/apples_2x.jpeg 2x">
+					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_apple.jpeg">
+					<img src="images/apples.jpeg" alt=“apples”>
+				</picture>
 	  			<h4 class="text-center text-uppercase">Apples</h4>
-          		<p class="text-center">https://githup.com/udacity/pineapple</p>
+          		<p class="text-center">https://githup.com/udacity/apples</p>
 	  		</div>
 		</div>
 	</div>
@@ -62,5 +77,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+  </article>
 </html>
+
