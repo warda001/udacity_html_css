@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML/CSS Project</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/css.css">
     <style>
 		@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 	</style>
@@ -15,13 +15,11 @@
 	<header>
   		<div class="row">
 	  		<div class="col-md-3">
-	  			<img class="img-responsive icon" src="images/images.png">
+	  			<img class="icon" src="images/images.png" alt="udacity">
 	  		</div>
 	  		<div class="col-md-9">
-	  			<div id="center">
-		  			<H1 class="text-right text-uppercase center">Tori Funkhouser</H1>
-		  			<H2 class="text-right text-uppercase">Front-End Ninja (in Training!)</H2>
-	  			</div>
+		  			<H1 id="center_h1" class="text-right text-uppercase center">Tori Funkhouser</H1>
+		  			<H2 id="center_h2" class="text-right text-uppercase">Front-End Ninja (in Training!)</H2>
 	  		</div>
 	  	</div>
 	</header>
@@ -33,13 +31,13 @@
 	<section>
 		<div class="row">
 	  		<div class="col-md-12">
-	  			<picture class="img-responsive cover_large">
-					<source class="img-responsive cover_large" media="(min-width: 500px)" srcset="images/strawberry-large_large.jpg 1x,
+	  			<picture>
+					<source media="(min-width: 500px)" srcset="images/strawberry-large_large.jpg 1x,
 					images/strawberry.jpg 2x">
 					<!--Not sure I want to use the single strawberry image, but will keep it in here for later:
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_strawberry.jpg">
 					//-->	
-					<img class="img-responsive cover_large" src="images/strawberry.jpg" alt=“strawberries”>
+					<img id="cover_large" src="images/strawberry.jpg" alt=“strawberries”>
 				</picture>
 			</div>
 		</div>
@@ -50,11 +48,10 @@
 			  	<H3>Featured Work</H3>
 			</div>
 		</div>
-		
 		<div class="row">
 	  		<div class="col-md-4">
 				<!--TO DO: change out fruit placeholder images for live images, once available.//-->	
-	  			<picture class="cover_small">
+	  			<picture>
 				<!--Source large is smaller than original fruit source files. It will be used for 1x resolutions.//-->
 					<source media="(min-width: 500px)" srcset="images/watermellon-large_large.jpeg 1x,
 					images/watermellon.jpeg 2x">
@@ -63,10 +60,9 @@
 				</picture>
 			  	<h4 class="text-center text-uppercase">Watermelons</h4>
           		<p class="text-center">https://github.com/udacity/watermelons</p>
-
 	  		</div>
 	  		<div class="col-md-4">
-	  			<picture class="cover_small">
+	  			<picture>
 					<source media="(min-width: 500px)" srcset="images/lemons-large_large.jpeg 1x,
 					images/lemons.jpeg 2x">
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_lemon.png">
@@ -76,11 +72,11 @@
           		<p class="text-center">https://github.com/udacity/lemons</p>
 	  		</div>
 	  		<div class="col-md-4">
-	  			<picture class="cover_small">
+	  			<picture>
 					<source media="(min-width: 500px)" srcset="images/apple-large_large.jpg 1x,
-					images/apples.jpeg 2x">
+					images/apple.jpg 2x">
 					<source media="(max-width: 499px)" type="image/jpg" srcset="images/single_apple.jpeg">
-					<img src="images/apples.jpg" alt=“apples”>
+					<img src="images/apple.jpeg" alt=“apples”>
 				</picture>
 	  			<h4 class="text-center text-uppercase">Apples</h4>
           		<p class="text-center">https://github.com/udacity/apples</p>
