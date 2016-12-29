@@ -21,3 +21,11 @@ Responsive Images
 
 Site Design
 * I mainly followed the design of the mockup provided, but added a few original elements learned from the program, including: centering text in CSS, using object-cover to hide an image within a container, and of course using the picture element to provide alternate images when the viewport is below a 500px
+
+# How to View the Project
+1) Into one folder on your local machine, download:
+* The index.HTML file
+* The bootstrap folder
+* The images folder
+2) Open the index.HTML file in your browser
+3) Additionally, to see the grunt file code used, you can download gruntfile.js 
