@@ -27,5 +27,7 @@ Site Design
 * The index.HTML file
 * The bootstrap folder
 * The images folder
+
 2) Open the index.HTML file in your browser
+
 3) Additionally, to see the grunt file code used, you can download gruntfile.js 
