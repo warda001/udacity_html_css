@@ -25,7 +25,7 @@ Site Design
 # How to View the Project
 1) Into one folder on your local machine, download:
 * The index.HTML file
-* The bootstrap folder
+* The css folder
 * The images folder
 
 2) Open the index.HTML file in your browser
