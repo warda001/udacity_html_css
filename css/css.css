@@ -1,23 +1,4 @@
-﻿Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @torilundfunkhouser
- Sign out
- Watch 0
-  Star 0
- Fork 0 torilundfunkhouser/udacity_html_css
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
-Branch: master Find file Copy pathudacity_html_css/css/css.css
-ce9fdb3  on Aug 12
- Tori Funkhouser changed files
-0 contributors
-RawBlameHistory     
-253 lines (251 sloc)  4.27 KB
-/*!
+﻿/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -155,12 +136,6 @@ p {
 .text-center {
   text-align: center;
 }
-.text-justify {
-  text-align: justify;
-}
-.text-nowrap {
-  white-space: nowrap;
-}
 .text-lowercase {
   text-transform: lowercase;
 }
@@ -169,12 +144,6 @@ p {
 }
 .text-capitalize {
   text-transform: capitalize;
-}
-.text-muted {
-  color: #777;
-}
-.text-primary {
-  color: #337ab7;
 }
 .container {
   padding-right: 15px;
@@ -207,12 +176,6 @@ p {
   margin-right: -15px;
   margin-left: -15px;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -220,38 +183,14 @@ p {
 .col-md-12 {
   width: 100%;
 }
-.col-md-11 {
-  width: 91.66666667%;
-}
-.col-md-10 {
-  width: 83.33333333%;
-}
 .col-md-9 {
   width: 75%;
-}
-.col-md-8 {
-  width: 66.66666667%;
-}
-.col-md-7 {
-  width: 58.33333333%;
-}
-.col-md-6 {
-  width: 50%;
-}
-.col-md-5 {
-  width: 41.66666667%;
 }
 .col-md-4 {
   width: 33.33333333%;
 }
 .col-md-3 {
   width: 25%;
-}
-.col-md-2 {
-  width: 16.66666667%;
-}
-.col-md-1 {
-  width: 8.33333333%;
 }
 /*!
  * Special IDs.
@@ -270,15 +209,3 @@ p {
 /*!
  * NOTE to reviewer: The CSS validator seems to think there's a hidden special character at the end of this file (getting a Lexicon error). Tried to troubleshoot it, but I think the validator might be incorrect.
 */
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
